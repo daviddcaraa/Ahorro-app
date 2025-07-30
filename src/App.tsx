@@ -113,7 +113,7 @@ function App() {
     }
   };
 
-  useEffect(() => {
+useEffect(() => {
     document.documentElement.classList.toggle('dark', isDark);
   }, [isDark]);
 
